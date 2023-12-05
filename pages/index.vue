@@ -1,5 +1,5 @@
 <template>
-<div class="container py-4 mt-5">
+<div class="container py-5 mt-5">
 <main class="px-3">
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
     <h1>この観光名所はどこ？</h1>
