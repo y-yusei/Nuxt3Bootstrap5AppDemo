@@ -1,10 +1,12 @@
 <template>
-  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+<div class="container py-4 mt-5">
+<main class="px-3">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
     <h1>この観光名所はどこ？</h1>
     <h1>都道府県当てゲーム！</h1>
-    <p>全国の観光名所の写真が表示され、その写真はどの都道府県なのかを当てるゲームです。</p>
+    <h2>全国の観光名所の写真が表示され、その写真はどの都道府県なのかを当てるゲームです。</h2>
   </div>
-
+</main>
   <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
     <div class="col">
       <div class="card mb-4 rounded-3 shadow-sm">
@@ -44,6 +46,7 @@
             <li>説明文</li>
           </ul>
           <button type="button" class="w-100 btn btn-lg btn-outline-danger">Game Strat</button>
+          </div>
         </div>
       </div>
     </div>
