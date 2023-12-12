@@ -1,4 +1,32 @@
 <template>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://shiro100.com/wp-content/uploads/2018/04/%E5%A7%AB%E8%B7%AF%E5%9F%8E100%E5%90%8D%E5%9F%8E%E6%94%BB%E7%95%A5.jpg" class="d-block w-100" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img src="https://shiro100.com/wp-content/uploads/2018/08/%E6%96%B0%E5%B9%B9%E7%B7%9A100%E5%90%8D%E5%9F%8E%E6%94%BB%E7%95%A5-1.jpg" class="d-block w-100" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.keihanhotels-resorts.co.jp/the-thousand-kyoto/sight/asset/b5bcabab0fcde4e3b4969d388a4923f30fc7e549.png" class="d-block w-100" alt="Third slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
   <div class="container py-5 mt-5">
     <main class="px-3">
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -47,19 +75,5 @@
       </div>
     </div>
   </div>
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://www.ana.co.jp/japan-travel-planner/area/kinki/hyogo/0000004/img005.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://s3.ap-northeast-1.amazonaws.com/bukkenmatome.nxin.jp/life/images/20211224021152/th_th_pixta_77370244_M-2000x1333.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://www.keihanhotels-resorts.co.jp/the-thousand-kyoto/sight/asset/b5bcabab0fcde4e3b4969d388a4923f30fc7e549.png" alt="Third slide">
-    </div>
-  </div>
-</div>
 
 </template>
