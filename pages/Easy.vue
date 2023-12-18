@@ -35,5 +35,5 @@
 
   animation: fadeInUp 1.5s 0s ease-in-out forwards;
 }
-</style>
 
+</style>
