@@ -1,5 +1,4 @@
 <template>
-<main>
   <div class="container py-5 mt-5">
     <div class="px-3">
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -17,7 +16,7 @@
           </div>
           <div class="card-body">
             <p class="mt-3 mb-4">簡単なレベルの説明文が入ります。</p>
-            <button type="button" class="w-100 btn btn-lg btn-outline-success">スタート</button>
+            <NuxtLink to="/Easy.vue"><button type="button" class="w-100 btn btn-lg btn-outline-success">スタート</button></NuxtLink>
           </div>
         </div>
       </div>
@@ -29,7 +28,8 @@
           </div>
           <div class="card-body">
             <p class="mt-3 mb-4">普通のレベルの説明文が入ります。</p>
-            <button type="button" class="w-100 btn btn-lg btn-outline-warning">スタート</button>
+            <NuxtLink to="./Easy">
+            <button type="button" class="w-100 btn btn-lg btn-outline-warning">スタート</button></NuxtLink>
           </div>
         </div>
       </div>
@@ -47,5 +47,4 @@
       </div>
     </div>
   </div>
-</main>
 </template>
