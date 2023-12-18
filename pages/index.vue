@@ -16,7 +16,8 @@
           </div>
           <div class="card-body">
             <p class="mt-3 mb-4">簡単なレベルの説明文が入ります。</p>
-            <NuxtLink to="/Easy.vue"><button type="button" class="w-100 btn btn-lg btn-outline-success">スタート</button></NuxtLink>
+            <NuxtLink to="/Easy">
+              <button type="button" class="w-100 btn btn-lg btn-outline-success">スタート</button></NuxtLink>
           </div>
         </div>
       </div>
@@ -28,7 +29,7 @@
           </div>
           <div class="card-body">
             <p class="mt-3 mb-4">普通のレベルの説明文が入ります。</p>
-            <NuxtLink to="/Easy">
+            <NuxtLink to="/Normal">
             <button type="button" class="w-100 btn btn-lg btn-outline-warning">スタート</button></NuxtLink>
           </div>
         </div>
@@ -41,16 +42,11 @@
           </div>
           <div class="card-body">
             <p class="mt-3 mb-4">難しいレベルの説明文が入ります。</p>
-            <button type="button" class="w-100 btn btn-lg btn-outline-danger">スタート</button>
+            <NuxtLink to="/Hard">
+            <button type="button" class="w-100 btn btn-lg btn-outline-danger">スタート</button></NuxtLink>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<style>
-.red {
-  color: red;
-}
-</style>

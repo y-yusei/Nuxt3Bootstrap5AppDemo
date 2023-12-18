@@ -2,7 +2,7 @@
   <router-link to="/">
   <button type="button" class="btn-close" aria-label="Close"></button></router-link>
   <div class="Easy">
-    <h1 class="title">Hard</h1>
+    <h1 class="title">Easy</h1>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FF3333;
+  background: #008000;
 }
 
 @keyframes fadeInUp {
