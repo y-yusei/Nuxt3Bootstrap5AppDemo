@@ -1,4 +1,5 @@
 <template>
+
   <div class="container py-5 mt-5">
     <div class="px-3">
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -8,7 +9,8 @@
         <p class="fs-3">その写真はどの都道府県なのかを当てるゲームです。</p>
       </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3 text-white bg-success">
