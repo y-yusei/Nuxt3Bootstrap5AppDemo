@@ -28,7 +28,7 @@
           </div>
           <div class="card-body">
             <p class="mt-3 mb-4">普通のレベルの説明文が入ります。</p>
-            <NuxtLink to="./Easy">
+            <NuxtLink to="/Easy">
             <button type="button" class="w-100 btn btn-lg btn-outline-warning">スタート</button></NuxtLink>
           </div>
         </div>
