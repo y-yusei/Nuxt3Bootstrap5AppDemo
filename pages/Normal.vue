@@ -1,13 +1,13 @@
 <template>
   <router-link to="/">
   <button type="button" class="btn-close" aria-label="Close"></button></router-link>
-  <div class="Easy">
+  <div class="Normal">
     <h1 class="title">Normal</h1>
   </div>
 </template>
 
 <style scoped>
-.Easy {
+.Normal {
   width: 100vw;
   height: 100vh;
   display: flex;

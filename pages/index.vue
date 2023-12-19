@@ -1,5 +1,4 @@
 <template>
-
   <div class="container py-5 mt-5">
     <div class="px-3">
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -10,7 +9,7 @@
       </div>
     </div>
 
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3 text-white bg-success">
@@ -19,7 +18,8 @@
           <div class="card-body">
             <p class="mt-3 mb-4">簡単なレベルの説明文が入ります。</p>
             <NuxtLink to="/Easy">
-              <button type="button" class="w-100 btn btn-lg btn-outline-success">スタート</button></NuxtLink>
+              <button type="button" class="w-100 btn btn-lg btn-outline-success">スタート</button>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -32,7 +32,8 @@
           <div class="card-body">
             <p class="mt-3 mb-4">普通のレベルの説明文が入ります。</p>
             <NuxtLink to="/Normal">
-            <button type="button" class="w-100 btn btn-lg btn-outline-warning">スタート</button></NuxtLink>
+              <button type="button" class="w-100 btn btn-lg btn-outline-warning">スタート</button>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -45,7 +46,8 @@
           <div class="card-body">
             <p class="mt-3 mb-4">難しいレベルの説明文が入ります。</p>
             <NuxtLink to="/Hard">
-            <button type="button" class="w-100 btn btn-lg btn-outline-danger">スタート</button></NuxtLink>
+              <button type="button" class="w-100 btn btn-lg btn-outline-danger">スタート</button>
+            </NuxtLink>
           </div>
         </div>
       </div>

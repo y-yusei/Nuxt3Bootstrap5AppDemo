@@ -1,6 +1,6 @@
 <template>
-  <router-link to="/">
-  <button type="button" class="btn-close" aria-label="Close"></button></router-link>
+  <NuxtLink to="/">
+  <button type="button" class="btn-close" aria-label="Close"></button></NuxtLink>
   <div class="Easy">
     <h1 class="title">Easy</h1>
   </div>
@@ -26,7 +26,6 @@
     transform: none;
   }
 }
-
 .title {
   font-size: 200px;
   font-weight: bold;
