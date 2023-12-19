@@ -4,9 +4,7 @@
   <div class="title">
     <h1 class="Easy">Easy</h1>
     <h1 class="Start">Start</h1>
-
   </div>
-
 </template>
 
 <style scoped>
@@ -38,7 +36,6 @@
   font-weight: bold;
   text-align: center;
   color: #fff;
-
   animation: fadeInOne 3s 0s ease-in-out forwards;
 }
 
@@ -46,11 +43,11 @@
   0% {
     opacity: 0;
   }
-  25% {
+  50% {
     opacity: 0;
     transform: translateY(20px);
   }
-  50% {
+  75% {
     opacity: 1;
     transform: none;
   }
@@ -64,7 +61,6 @@
   font-weight: bold;
   text-align: center;
   color: #fff;
-
-  animation: fadeInTwo s 0s ease-in-out forwards;
+  animation: fadeInTwo 6s 0s ease-in-out forwards;
 }
 </style>
