@@ -5,9 +5,24 @@
     <h1 class="Easy">Easy</h1>
     <h1 class="Start">Start</h1>
   </div>
+  <div class="Game-Content">
+
+  </div>
 </template>
 
 <style scoped>
+
+@keyframes page {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .title {
   width: 100vw;
   height: 100vh;
@@ -15,6 +30,7 @@
   justify-content: center;
   align-items: center;
   background: #008000;
+  animation: page 7s 0s ease-in-out forwards;
 }
 
 @keyframes fadeInOne {
