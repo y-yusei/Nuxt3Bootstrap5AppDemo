@@ -1,13 +1,16 @@
 <template>
   <NuxtLink to="/">
   <button type="button" class="btn-close" aria-label="Close"></button></NuxtLink>
-  <div class="Easy">
-    <h1 class="title">Easy</h1>
+  <div class="title">
+    <h1 class="Easy">Easy</h1>
+    <h1 class="Start">Start</h1>
+
   </div>
+
 </template>
 
 <style scoped>
-.Easy {
+.title {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -16,23 +19,52 @@
   background: #008000;
 }
 
-@keyframes fadeInUp {
+@keyframes fadeInOne {
   0% {
     opacity: 0;
     transform: translateY(20px);
   }
-  100% {
+  50% {
     opacity: 1;
     transform: none;
   }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 }
-.title {
+.Easy {
   font-size: 200px;
   font-weight: bold;
   text-align: center;
   color: #fff;
 
-  animation: fadeInUp 1.5s 0s ease-in-out forwards;
+  animation: fadeInOne 3s 0s ease-in-out forwards;
 }
 
+@keyframes fadeInTwo {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+.Start {
+  font-size: 200px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+
+  animation: fadeInTwo s 0s ease-in-out forwards;
+}
 </style>
