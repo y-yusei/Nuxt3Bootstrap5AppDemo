@@ -6,23 +6,10 @@
     <h1 class="Start">Start</h1>
   </div>
   <div class="Game-Content">
-
   </div>
 </template>
 
 <style scoped>
-
-@keyframes page {
-  0% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .title {
   width: 100vw;
   height: 100vh;
@@ -32,9 +19,31 @@
   background: #008000;
   animation: page 7s 0s ease-in-out forwards;
 }
+.Easy {
+  font-size: 250px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  animation: fadeInOne 3s 0s ease-in-out forwards;
+}
+.Start {
+  font-size: 250px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  animation: fadeInTwo 6s 0s ease-in-out forwards;
+}
+@keyframes page {
+  0%,75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 @keyframes fadeInOne {
-  0% {
+  0%,100% {
     opacity: 0;
     transform: translateY(20px);
   }
@@ -42,24 +51,13 @@
     opacity: 1;
     transform: none;
   }
-  100% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-}
-.Easy {
-  font-size: 200px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  animation: fadeInOne 3s 0s ease-in-out forwards;
 }
 
 @keyframes fadeInTwo {
   0% {
     opacity: 0;
   }
-  50% {
+  50%,100% {
     opacity: 0;
     transform: translateY(20px);
   }
@@ -67,16 +65,6 @@
     opacity: 1;
     transform: none;
   }
-  100% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
 }
-.Start {
-  font-size: 200px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  animation: fadeInTwo 6s 0s ease-in-out forwards;
-}
+
 </style>
