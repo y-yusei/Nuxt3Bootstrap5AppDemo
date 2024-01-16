@@ -1,13 +1,12 @@
 <template>
-  <NuxtLink to="/">
-  <button type="button" class="btn-close" aria-label="Close"></button></NuxtLink>
   <div class="title">
-    <h1 class="Easy">Easy</h1>
     <h1 class="Start">Start</h1>
   </div>
   <div class="Game-Content">
   </div>
 </template>
+
+
 
 <style scoped>
 .title {
@@ -17,24 +16,17 @@
   justify-content: center;
   align-items: center;
   background: #008000;
-  animation: page 7s 0s ease-in-out forwards;
-}
-.Easy {
-  font-size: 250px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  animation: fadeInOne 3s 0s ease-in-out forwards;
+  animation: page 4s 0s ease-in-out forwards;
 }
 .Start {
   font-size: 250px;
   font-weight: bold;
   text-align: center;
   color: #fff;
-  animation: fadeInTwo 6s 0s ease-in-out forwards;
+  animation: fadeIn 3s 0s ease-in-out forwards;
 }
 @keyframes page {
-  0%,75% {
+  0%,75%{
     opacity: 1;
   }
   100% {
@@ -42,28 +34,13 @@
   }
 }
 
-@keyframes fadeInOne {
-  0%,100% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  50% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes fadeInTwo {
+@keyframes fadeIn {
   0% {
     opacity: 0;
-  }
-  50%,100% {
-    opacity: 0;
     transform: translateY(20px);
   }
-  75% {
+  100% {
     opacity: 1;
-    transform: none;
   }
 }
 

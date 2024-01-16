@@ -16,7 +16,7 @@
             <h4 class="my-0 fw-normal display-4">Easy</h4>
           </div>
           <div class="card-body">
-            <p class="mt-3 mb-4">簡単なレベルの説明文が入ります。</p>
+            <p class="mt-3 mb-4">誰しもが見たことがあるような世界的にも有名な名所！</p>
             <NuxtLink to="/Easy">
               <button type="button" class="w-100 btn btn-lg btn-outline-success">スタート</button>
             </NuxtLink>
@@ -30,7 +30,7 @@
             <h4 class="my-0 fw-normal display-4">Normal</h4>
           </div>
           <div class="card-body">
-            <p class="mt-3 mb-4">普通のレベルの説明文が入ります。</p>
+            <p class="mt-3 mb-4">説明文</p>
             <NuxtLink to="/Normal">
               <button type="button" class="w-100 btn btn-lg btn-outline-warning">スタート</button>
             </NuxtLink>
@@ -44,7 +44,7 @@
             <h4 class="my-0 fw-normal display-4">Hard</h4>
           </div>
           <div class="card-body">
-            <p class="mt-3 mb-4">難しいレベルの説明文が入ります。</p>
+            <p class="mt-3 mb-4">説明文</p>
             <NuxtLink to="/Hard">
               <button type="button" class="w-100 btn btn-lg btn-outline-danger">スタート</button>
             </NuxtLink>

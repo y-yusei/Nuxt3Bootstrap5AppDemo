@@ -1,39 +1,68 @@
 <template>
-  <router-link to="/">
-  <button type="button" class="btn-close" aria-label="Close"></button></router-link>
-  <div class="Hard">
-    <h1 class="title">Hard</h1>
+  <div class="title">
+    <h1 class="Hard">Hard</h1>
+    <h1 class="Start">Start</h1>
+  </div>
+  <div class="Game-Content">
   </div>
 </template>
 
 <style scoped>
-.Hard {
+.title {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #FF3333;
+  animation: page 7s 0s ease-in-out forwards;
+}
+.Hard {
+  font-size: 250px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  animation: fadeInOne 3s 0s ease-in-out forwards;
+}
+.Start {
+  font-size: 250px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  animation: fadeInTwo 6s 0s ease-in-out forwards;
+}
+@keyframes page {
+  0%,75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-@keyframes fadeInUp {
-  0% {
+@keyframes fadeInOne {
+  0%,100% {
     opacity: 0;
     transform: translateY(20px);
   }
-  100% {
+  50% {
     opacity: 1;
     transform: none;
   }
 }
 
-.title {
-  font-size: 200px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-
-  animation: fadeInUp 1.5s 0s ease-in-out forwards;
+@keyframes fadeInTwo {
+  0% {
+    opacity: 0;
+  }
+  50%,100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  75% {
+    opacity: 1;
+    transform: none;
+  }
 }
-</style>
 
+</style>
