@@ -6,8 +6,6 @@
   </div>
 </template>
 
-
-
 <style scoped>
 .title {
   width: 100vw;

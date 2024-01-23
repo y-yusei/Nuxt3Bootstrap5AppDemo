@@ -1,11 +1,12 @@
 <template>
   <div class="title">
-    <h1 class="Hard">Hard</h1>
     <h1 class="Start">Start</h1>
   </div>
   <div class="Game-Content">
   </div>
 </template>
+
+
 
 <style scoped>
 .title {
@@ -14,25 +15,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FF3333;
-  animation: page 7s 0s ease-in-out forwards;
-}
-.Hard {
-  font-size: 250px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  animation: fadeInOne 3s 0s ease-in-out forwards;
+  background: #FF0000;
+  animation: page 4s 0s ease-in-out forwards;
 }
 .Start {
   font-size: 250px;
   font-weight: bold;
   text-align: center;
   color: #fff;
-  animation: fadeInTwo 6s 0s ease-in-out forwards;
+  animation: fadeIn 3s 0s ease-in-out forwards;
 }
 @keyframes page {
-  0%,75% {
+  0%,75%{
     opacity: 1;
   }
   100% {
@@ -40,28 +34,13 @@
   }
 }
 
-@keyframes fadeInOne {
-  0%,100% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  50% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes fadeInTwo {
+@keyframes fadeIn {
   0% {
     opacity: 0;
-  }
-  50%,100% {
-    opacity: 0;
     transform: translateY(20px);
   }
-  75% {
+  100% {
     opacity: 1;
-    transform: none;
   }
 }
 
