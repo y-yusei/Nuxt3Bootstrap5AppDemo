@@ -75,6 +75,18 @@ import dataMixin from '~/composables/data.js';
 
 export default {
   mixins: [dataMixin],
+  data() {
+    return {
+      showQuiz: true, // クイズの表示制御
+      selected2: '都道府県を選んでください',
+    };
+  },
+  methods: {
+    answerCheck() {
+      // 回答の確認とアクションを追加する
+      console.log('Answer Checked!');
+    },
+  },
 };
 </script>
 
