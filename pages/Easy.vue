@@ -1,10 +1,10 @@
 <template>
-  <div class="all">
+  <div class="all" id ='app'>
   <div class="title">
     <h1 class="Start">Start</h1> 
   </div>
   
-  <div class="quiz">
+  <div v-if="showQuiz" class="quiz">
   <div class="col-md-8 offset-md-2">
     <div class="questionBox">
       <div class="box-title">問題</div>
@@ -12,9 +12,9 @@
     </div>
   </div>
 
-  <img src="hyougo.jpg" class="img-thumbnail">
+  <img :src="questions[0].pic" class="img-thumbnail">
 
-  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <select v-model="selected2" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
   <option selected>都道府県を選んでください</option>
 	<option value="北海道">北海道</option>
 	<option value="青森県">青森県</option>
@@ -64,9 +64,20 @@
 	<option value="鹿児島県">鹿児島県</option>
 	<option value="沖縄県">沖縄県</option>
 </select>
+<p v-if="selected2 !== '都道府県を選んでください'">選択した都道府県: {{ selected2 }}</p>
+<button @click="answerCheck">回答</button>
 </div>
 </div>
 </template>
+
+<script>
+import dataMixin from './data.js'; // data.jsのパスに適切なパスを指定
+
+export default {
+  mixins: [dataMixin],
+  // 他のオプションやコンポーネントの部分
+};
+</script>
 
 <style scoped>
 .all {
