@@ -71,11 +71,10 @@
 </template>
 
 <script>
-import dataMixin from './data.js'; // data.jsのパスに適切なパスを指定
+import dataMixin from '~/composables/data.js';
 
 export default {
   mixins: [dataMixin],
-  // 他のオプションやコンポーネントの部分
 };
 </script>
 
