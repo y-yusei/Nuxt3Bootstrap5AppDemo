@@ -77,13 +77,12 @@ export default {
   mixins: [dataMixin],
   data() {
     return {
-      showQuiz: true, // クイズの表示制御
+      showQuiz: true, 
       selected2: '都道府県を選んでください',
     };
   },
   methods: {
     answerCheck() {
-      // 回答の確認とアクションを追加する
       console.log('Answer Checked!');
     },
   },

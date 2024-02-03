@@ -1,6 +1,5 @@
 new Vue({
   el: '#app',
-  export default {
   data: {
     questions: {
       0: {
@@ -25,15 +24,12 @@ new Vue({
         this.isCorrect = false;
       }
 
-      // 結果を表示するモーダルを表示する
       $('#answerCheckModal').modal({
         keyboard: false,
         backdrop: "static"
       });
 
-      // 次の質問に進む
       this.currentQuestionNumber += 1;
     },
-    // 他のメソッドなども追加できます
   }
 });
